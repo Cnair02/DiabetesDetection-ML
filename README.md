@@ -9,22 +9,15 @@ Skills: Data extraction, EDA, visualization, transformation, model building and 
 Tools: Pandas, Scikit-learn, Matplotlib, Seaborn and Numpy
 
 Topics covered:
-
-Data Extraction
-
-Exploratory Data Analysis
-
-Model Building
-
-Model Evaluation
+1. Data Extraction
+2. Exploratory Data Analysis
+3. Model Building
+4. Model Evaluation
 
 Challenges:
-
-Gathering high level understanding about factors affecting diabetes.
-
-Reading and evaluating columns and correlation plot with the outcome to be determined.
-
-Highlighting the best ways to assess the model prediction. What parameters are the most important to this particular use case.
+1. Gathering high level understanding about factors affecting diabetes.
+2. Reading and evaluating columns and correlation plot with the outcome to be determined.
+3. Highlighting the best ways to assess the model prediction. What parameters are the most important to this particular use case.
 
 Conclusion:
 
