@@ -11,8 +11,11 @@ Tools: Pandas, Scikit-learn, Matplotlib, Seaborn and Numpy
 Topics covered:
 
 Data Extraction
+
 Exploratory Data Analysis
+
 Model Building
+
 Model Evaluation
 
 Challenges:
