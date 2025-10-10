@@ -18,7 +18,9 @@ Model Evaluation
 Challenges:
 
 Gathering high level understanding about factors affecting diabetes.
+
 Reading and evaluating columns and correlation plot with the outcome to be determined.
+
 Highlighting the best ways to assess the model prediction. What parameters are the most important to this particular use case.
 
 Conclusion:
