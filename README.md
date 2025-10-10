@@ -1,15 +1,17 @@
 # DiabetesDetection-ML
 
-##Description
+## Description
+
 Problem definition: Diabetes prediction from PIMA dataset
 
-Objective: Explore the dataset, data analysis and build models to predict diabetes.
+Objective: Explore the dataset, analysis and build models to predict diabetes. Here, multiple models will be compared and the best model will be selected for determining the best prediction. The focus will be mainly on DecsionTree, RandomForest, XGBoost and LogarithmicClassifier
 
 Skills: Data extraction, EDA, visualization, transformation, model building and evaluation.
 
 Tools: Pandas, Scikit-learn, Matplotlib, Seaborn and Numpy
 
-##About
+## About
+
 About the Dataset: The objective of the dataset is to be able to ascertain if a person has diabetes or not based on the attributes that is provided. The data collected are all females above 21 years old of Indian PIMA heritage. The following are the attributes of this dataset,
 1. Pregnancies: Number of times pregnant 
 2. Glucose: Plasma glucose concentration a 2 hours in an oral glucose tolerance test
@@ -21,18 +23,18 @@ About the Dataset: The objective of the dataset is to be able to ascertain if a 
 8. Age: Age (years)
 9. Outcome: Class variable (0 or 1) 268 of 768 are 1, the others are 0.
 
-Topics covered:
+## Topics covered
 1. Data Extraction
 2. Exploratory Data Analysis
 3. Model Building
 4. Model Evaluation
 
-Challenges:
+## Challenges
 1. Gathering high level understanding about factors affecting diabetes.
 2. Reading and evaluating columns and correlation plot with the outcome to be determined.
 3. Highlighting the best ways to assess the model prediction. What parameters are the most important to this particular use case.
 
-##Conclusion
+## Conclusion
 
 Looking at the model evaluation by finding the accuracy, precision and recall we can conclude that for this dataset, Decision Tree and Logistic Classifier is a better fit as compared to Random forest and XGBoost. This could possibly be because the dataset is considerably small thereby making simpler models work more efficiently than ensemble methods.
 
