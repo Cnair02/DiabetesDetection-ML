@@ -1,6 +1,5 @@
-cython<3
 streamlit>=1.28.0
-scikit-learn==1.2.2
+scikit-learn==1.7.2
 pandas==2.2.3
 numpy==1.26.4
 seaborn>=0.13.0
