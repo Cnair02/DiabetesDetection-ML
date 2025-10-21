@@ -2,5 +2,6 @@ streamlit
 scikit-learn==1.2.2
 pandas==2.2.3
 numpy==1.26.4
+cython<3
 seaborn
 matplotlib
