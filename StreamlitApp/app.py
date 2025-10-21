@@ -17,7 +17,7 @@ dpf = st.number_input("Diabetes Pedigree Function", 0.0, 3.0)
 age = st.number_input("Age", 1, 120)
 
 if st.button("Predict"):
-    model = pickle.load(open("./diabetes_model.pkl", "rb"))
+    model = pickle.load(open("DiabetesDetection-ML/StreamlitApp/diabetes_model.pkl", "rb"))
     features = np.array([[pregnancies, glucose, blood_pressure, skin_thickness, insulin, bmi, dpf, age]])
     prediction = model.predict(features)
     result = "Diabetic" if prediction[0] == 1 else "Non-Diabetic"
