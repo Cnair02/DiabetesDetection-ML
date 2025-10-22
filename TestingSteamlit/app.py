@@ -32,8 +32,8 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Load model
-model = pickle.load(open('diabetes_model.pkl', 'rb'))
-scaler = pickle.load(open('scaler.pkl', 'rb'))
+model = pickle.load(open('TestingStreamlit/diabetes_model.pkl', 'rb'))
+# scaler = pickle.load(open('scaler.pkl', 'rb'))
 
 # Sidebar navigation
 st.sidebar.title("🔧 App Controls")
@@ -69,8 +69,8 @@ elif tab_choice == "🩸 Prediction":
         with st.spinner("Analyzing your inputs..."):
             time.sleep(1.5)
             input_data = np.array([[Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age]])
-            input_scaled = scaler.transform(input_data)
-            prediction = model.predict(input_scaled)
+            # input_scaled = scaler.transform(input_data)
+            prediction = model.predict(input_data)
 
             st.subheader("📊 Prediction Results")
             if prediction == 1:
@@ -83,10 +83,10 @@ elif tab_choice == "🩸 Prediction":
 elif tab_choice == "ℹ️ About the App":
     st.title("About this Project 💡")
     st.write("""
-    This app was developed using **Streamlit**, **Scikit-learn**, and **XGBoost**, trained on the Pima Indians Diabetes dataset.
+    This app was developed using **Streamlit**, **Scikit-learn**, and **DecisionTree**, trained on the Pima Indians Diabetes dataset.
     
     **Tech Stack:**
-    - Machine Learning Model: XGBoost Classifier
+    - Machine Learning Model: DecisionTree Classifier
     - Framework: Streamlit
     - Dataset: Kaggle - Pima Indians Diabetes
     
