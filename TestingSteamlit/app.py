@@ -32,7 +32,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Load model
-model = pickle.load(open('TestingStreamlit/diabetes_model.pkl', 'rb'))
+model = pickle.load(open('TestingSteamlit/diabetes_model.pkl', 'rb'))
 # scaler = pickle.load(open('scaler.pkl', 'rb'))
 
 # Sidebar navigation
